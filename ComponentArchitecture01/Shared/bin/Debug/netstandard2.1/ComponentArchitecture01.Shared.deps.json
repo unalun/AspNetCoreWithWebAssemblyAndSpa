@@ -1,0 +1,24 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "ComponentArchitecture01.Shared/1.0.0": {
+        "runtime": {
+          "ComponentArchitecture01.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ComponentArchitecture01.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

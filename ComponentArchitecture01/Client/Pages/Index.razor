@@ -1,0 +1,31 @@
+﻿@page "/"
+@inject ICustomerService CustomerService
+@inject IJSRuntime js
+
+@using ComponentArchitecture01.Shared.Abstract;
+@using ComponentArchitecture01.Shared.ViewModel;
+
+
+
+<CustomerComponent CustomerList="CustomerList" Remove="Remove"> </CustomerComponent>
+
+@code{
+
+    public List<CustomerViewModel> CustomerList = null;
+
+    protected override void OnInitialized()
+    {
+        CustomerList = new List<CustomerViewModel>();
+        CustomerList = CustomerService.GetAll();
+    }
+
+    private async Task Remove(CustomerViewModel item)
+    {
+        var confirmed = await js.InvokeAsync<bool>("confirm", $"Are you sure You Want to Remove it {item.FullName}");
+
+        if (confirmed)
+        {
+            CustomerService.Remove(item);
+        }
+    }
+}

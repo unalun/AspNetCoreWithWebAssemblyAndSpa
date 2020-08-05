@@ -1,0 +1,7 @@
+﻿<h3>Customers</h3>
+<ul>
+    @foreach (var item in CustomerList)
+    {
+        <li>@item.Id - @item.FullName <a href="#" @onclick="@(()=> Remove.InvokeAsync(item))">Remove</a></li>
+    }
+</ul>

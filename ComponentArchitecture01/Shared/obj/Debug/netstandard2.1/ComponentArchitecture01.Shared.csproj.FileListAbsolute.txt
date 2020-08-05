@@ -1,0 +1,8 @@
+D:\Projeler\WebAssemblyAndBlazor\ComponentArchitecture01\ComponentArchitecture01\Shared\bin\Debug\netstandard2.1\ComponentArchitecture01.Shared.deps.json
+D:\Projeler\WebAssemblyAndBlazor\ComponentArchitecture01\ComponentArchitecture01\Shared\bin\Debug\netstandard2.1\ComponentArchitecture01.Shared.dll
+D:\Projeler\WebAssemblyAndBlazor\ComponentArchitecture01\ComponentArchitecture01\Shared\bin\Debug\netstandard2.1\ComponentArchitecture01.Shared.pdb
+D:\Projeler\WebAssemblyAndBlazor\ComponentArchitecture01\ComponentArchitecture01\Shared\obj\Debug\netstandard2.1\ComponentArchitecture01.Shared.AssemblyInfoInputs.cache
+D:\Projeler\WebAssemblyAndBlazor\ComponentArchitecture01\ComponentArchitecture01\Shared\obj\Debug\netstandard2.1\ComponentArchitecture01.Shared.AssemblyInfo.cs
+D:\Projeler\WebAssemblyAndBlazor\ComponentArchitecture01\ComponentArchitecture01\Shared\obj\Debug\netstandard2.1\ComponentArchitecture01.Shared.csproj.CoreCompileInputs.cache
+D:\Projeler\WebAssemblyAndBlazor\ComponentArchitecture01\ComponentArchitecture01\Shared\obj\Debug\netstandard2.1\ComponentArchitecture01.Shared.dll
+D:\Projeler\WebAssemblyAndBlazor\ComponentArchitecture01\ComponentArchitecture01\Shared\obj\Debug\netstandard2.1\ComponentArchitecture01.Shared.pdb
